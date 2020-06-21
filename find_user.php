@@ -37,7 +37,7 @@
             </div>
 <?php
 require_once('db_setup.php');
-$sql = "USE sxue3_1";
+$sql = "USE whu12_1";
 if ($conn->query($sql) === TRUE) {
    // echo "using Database tbiswas2_company";
 } else {
