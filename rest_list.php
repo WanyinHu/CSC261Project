@@ -26,7 +26,7 @@
 require_once('db_setup.php');
 $sql = "USE whu12_1";
 if($conn->query($sql)==TRUE){
-	echo "\nUsing Database sxue3_1";
+	echo "\nUsing Database whu12_1";
 }else{
 	echo "Error using database: ". $conn->error;
 }
